@@ -1,0 +1,64 @@
+# the Java class drives this weapon
+# weapon type for the base class
+#
+# RIGHT MOUSE BUTTON: Increase intensity level (throw further)
+# LEFT MOUSE BUTTON: Throw it, with intensity level given! 
+#
+base: ThrowableExplosive
+
+display: "&4&l♥Love Grenade♥"
+
+# Material from Bukkit API
+material: FIREWORK
+# Lore for the weapon
+lore:
+  - "&eRight click to gain intensity"
+  - "&eLeft click to throw"
+
+# base class specific settings
+# in this situation, we need set the parameters for ThrowableExplosive
+# ThrowableExplosive extends abstract class Throwable and it has a general settings
+settings:
+  # General settings for Throwable abstract class
+  general: 
+    # EntityType from Bukkit API
+    entity: FALLING_BLOCK
+    # un-comment and use following line if you using FALLING_BLOCK as entity
+    #falling-block-material: STONE
+    
+    # final speed = base + speed_factor * intensity_level
+    speeding:
+      base-speed: 2.0
+      intensity:
+        speed-factor: 1.5
+        max-level: 4
+        # microseconds to increment a intensity level
+        # 1 second = 1000ms
+        increment-delay-ms: 200
+        # interval to drop an intensity level, in TICKS
+        # 1 second = 20 ticks
+        drop-interval: 20
+        # how many microseconds before intensity level starts to drop
+        # increment timeout happens when you release RIGHT button
+        # 1 second = 1000ms
+        increment-timeout-ms: 1000
+    
+    # gravity settings, not Minecraft gravity, it's calculated by LegendGuns plugin
+    gravity:
+      # how much dropping speed apply at defined interval
+      mass: 2.0
+      interval: 5
+  # ThrowableExplosive specific settings
+  explosive:
+    # how many ticks before explosion
+    # 1 second = 20 ticks
+    delay: 60
+    radius: 6
+    damage: 12.0
+    effect: 
+      # effect when moving, we set to heart-trail just for fun
+      moving: heart-trail
+      # effect when explode
+      explode: normal-explosion
+      # effects applied for damaged entities
+      victims: normal-explosion

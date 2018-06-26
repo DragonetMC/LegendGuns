@@ -1,0 +1,12 @@
+components:
+  boom:
+    category: SOUND
+    type: BLOCK_IRON_DOOR_OPEN
+  boom-1:
+    category: SOUND
+    type: BLOCK_IRON_DOOR_CLOSE
+    delay: 5
+  boom-2:
+    category: SOUND
+    type: BLOCK_IRON_DOOR_OPEN
+    delay: 20

@@ -1,0 +1,19 @@
+components:
+  shoot-sound:
+    category: SOUND
+    type: ENTITY_PLAYER_ATTACK_KNOCKBACK
+    delay: 5
+    parameters:
+      volume: 0.5
+      pitch: 2.0
+  low-pitch-sound:
+    category: SOUND
+    type: ENTITY_ZOMBIE_ATTACK_DOOR_WOOD
+  refill-1:
+    category: SOUND
+    type: BLOCK_IRON_DOOR_OPEN
+    delay: 5
+  refill-2:
+    category: SOUND
+    type: BLOCK_IRON_DOOR_CLOSE
+    delay: 15

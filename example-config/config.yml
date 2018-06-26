@@ -1,0 +1,4 @@
+# settings for managed entites by LegendGuns plugin
+# such as thrown weapon entities
+managed-entities:
+  max-live-time-ms: 10000

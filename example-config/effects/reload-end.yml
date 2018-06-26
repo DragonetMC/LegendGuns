@@ -1,0 +1,12 @@
+components:
+  1:
+    category: SOUND
+    type: BLOCK_STONE_BUTTON_CLICK_OFF
+  2:
+    category: SOUND
+    type: BLOCK_LADDER_STEP
+    delay: 10
+  3:
+    category: SOUND
+    type: BLOCK_GRAVEL_PLACE
+    delay: 10

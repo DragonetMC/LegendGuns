@@ -1,0 +1,15 @@
+ITEM_WEAPON: "\u00a77Weapon [\u00a7b%s\u00a77]"
+ITEM_MAGAZINE: "\u00a77Magazine [\u00a7b%s\u00a77]"
+
+# boss bar settings for weapons
+BOSSBAR_NORMAL: "\u00a7b%s"
+BOSSBAR_NORMAL_WITH_AMMO: "\u00a7b%s \u00a72%d\u00a77/\u00a72%d \u00a77(\u00a73%s\u00a77)"
+BOSSBAR_THROWABLE: "\u00a7b%s \u00a73strength: \u00a74%d"
+
+# ammunition messages
+MAGAZINE_USAGE: "\u00a77Magazines can by loaded to weapons, can't be used directly! "
+OUT_OF_AMMO: "\u00a7cNo ammo! Press '\u00a7bQ\u00a7c' to load a magazine from your inventory! "
+RELOADING: "\u00a7aReloading... \u00a78Double press '\u00a7bQ\u00a78' to drop the weapon! "
+NO_MAGAZINE: "\u00a7cNo magazine is usable! Double press '\u00a7bQ\u00a7c' to drop the weapon! "
+USABLE_MAGAZINE_TYPES_HEADER: "\u00a7bYou can use following magazines: "
+USABLE_MAGAZINE_TYPES_LINE: " \u00a77- <\u00a7b%s\u00a77>"

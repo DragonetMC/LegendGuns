@@ -1,0 +1,21 @@
+# Configuration for Magazine
+
+# display name on the BossBar
+display: ".55mm Magazine"
+
+# how many shots
+ammo: 10
+
+# effects when start reloading
+effect: 
+  start: reload-start
+  end: reload-end
+
+# in ticks
+reloadTime: 40
+
+item: 
+  material: POWERED_MINECART
+  lore: 
+    - "&fThis is a sniper magazine"
+    - "&fwith 10 shots"

@@ -1,0 +1,7 @@
+components:
+  just-a-name-for-this-particle:
+    category: PARTICLE
+    type: REDSTONE
+    delay: 0
+    repeat-interval: 5
+    position-offset: [0, 0, 0]

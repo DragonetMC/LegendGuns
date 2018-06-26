@@ -1,0 +1,7 @@
+components:
+  base-sound:
+    category: SOUND
+    type: BLOCK_GLASS_PLACE
+  high-sound:
+    category: SOUND
+    type: BLOCK_LEVER_CLICK

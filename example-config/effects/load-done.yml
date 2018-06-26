@@ -1,0 +1,4 @@
+components:
+  boom:
+    category: SOUND
+    type: BLOCK_LADDER_BREAK

@@ -1,0 +1,4 @@
+components:
+  explosion-for-super:
+    category: PARTICLE
+    type: EXPLOSION_HUGE

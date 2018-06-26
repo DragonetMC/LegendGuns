@@ -1,0 +1,21 @@
+# Configuration for Magazine
+
+# display name on the BossBar
+display: "Rocket Magazine"
+
+# how many shots
+ammo: 20
+
+# effects when start reloading
+effect: 
+  start: shotgun-reload-start
+  end: reload-end
+
+# in ticks
+reloadTime: 40
+
+item: 
+  material: POWERED_MINECART
+  lore: 
+    - "&fThis is a shotgun magazine"
+    - "&fwith 20 shots"

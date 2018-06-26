@@ -1,0 +1,26 @@
+# Configuration for Magazine
+
+# display name on the BossBar
+display: ".55mm Magazine"
+
+# how many shots
+ammo: 35
+
+# effects when start reloading
+effect: 
+  start: reload-start
+  end: reload-end
+
+# in ticks
+reloadTime: 40
+
+item: 
+  material: POWERED_MINECART
+  lore: 
+    - "&fThis is a simple magazine"
+    - "&fwith 35 shots"
+    - "&8----"
+    - "&eYou can customize reload time"
+    - "&efor this type of magazine"
+    - "&8----"
+    - "&aAlso reload effects"

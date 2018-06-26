@@ -1,0 +1,10 @@
+components:
+  just-a-name-for-this-particle:
+    category: PARTICLE
+    type: REDSTONE
+    delay: 0
+    repeat-interval: 1
+  dust:
+    category: PARTICLE
+    type: EXPLOSION_NORMAL
+    repeat-interval: 2

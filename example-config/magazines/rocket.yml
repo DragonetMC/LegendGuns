@@ -1,0 +1,21 @@
+# Configuration for Magazine
+
+# display name on the BossBar
+display: "Rocket Magazine"
+
+# how many shots
+ammo: 10
+
+# effects when start reloading
+effect: 
+  start: reload-start
+  end: reload-end
+
+# in ticks
+reloadTime: 60
+
+item: 
+  material: POWERED_MINECART
+  lore: 
+    - "&fThis is a rocket magazine"
+    - "&fwith 10 shots"

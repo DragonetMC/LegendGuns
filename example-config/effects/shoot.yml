@@ -1,0 +1,7 @@
+components:
+  shoot-sound:
+    category: SOUND
+    type: ENTITY_PLAYER_ATTACK_KNOCKBACK
+    parameters:
+      volume: 0.5
+      pitch: 2.0

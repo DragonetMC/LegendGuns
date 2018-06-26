@@ -1,0 +1,28 @@
+components:
+  whoops:
+    category: SOUND
+    type: BLOCK_NOTE_FLUTE
+    delay: 0
+    repeat-interval: 10
+    parameters:
+      volume: 100.0
+      pitch: 1.0
+  whoops-2:
+    category: SOUND
+    type: ENTITY_PARROT_HURT
+    delay: 5
+    repeat-interval: 1
+    parameters:
+      volume: 100.0
+      pitch: 2.0
+  magical:
+    category: PARTICLE
+    type: HEART
+    delay: 0
+    repeat-interval: 1
+    position-offset: [0, 0.6, 0]
+  boom:
+    category: SOUND
+    type: BLOCK_ANVIL_LAND
+    parameters:
+      pitch: 0.01

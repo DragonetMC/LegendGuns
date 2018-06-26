@@ -1,0 +1,64 @@
+# the Java class drives this weapon
+# weapon type for the base class
+base: NormalWithAmmo
+
+display: "&e&lSuper Gun"
+
+# Material from Bukkit API
+material: STICK
+# Lore for the weapon
+lore:
+  - "&eFor testing purposes"
+
+# base class specific settings
+# in this situation, we need set the parameters for Normal
+settings:
+  loadup:
+    effects:
+      start: load-start
+      done: load-done
+    delay: 30
+  shooting:
+    effect: rocketshoot
+    # NOTICE: this delay is in microseconds
+    delay-ms: 1000
+    # the angle in degrees, recoil per single shot
+    recoil:
+      # rotate upwards, it will *NOT* interupt the player's movement
+      rotate-vert: -8.0
+      # max delta value of the horizontal rotation, should be ±N
+      rotate-hori-max: 10.0
+    burst-shot:
+      enabled: false
+  # ammunition settings
+  ammunition:
+    # what types of magazines can be used
+    accepted-magazines: [rocket]
+    # effect for the weapon when out of ammo
+    no-ammo-effect: no-ammo
+  bullet:
+    # Projectile EntityType from Bukkit API
+    projectile: FIREBALL
+    # bullet speed
+    speed: 2
+    damage:
+      # damage type: SINGLE or BLAST
+      type: BLAST
+      # use radius if using BLAST type
+      radius: 4
+      value: 6.0
+    # gravity affected or not? 
+    # set false for flying objects, 
+    # for example rockets can run slot but don't drop
+    # also if wanna make it weird, set to true
+    gravity: false
+    effect: rocketbullet
+    hit-effect: normal-explosion
+    bullets-per-shot: 1
+    randomness: 0.01
+    # how many ticks before check and remove bullets?
+    clear-up: 
+      # check interval in ticks
+      interval: 200
+      # bullet time-to-live in microseconds
+      ttl-ms: 15000
